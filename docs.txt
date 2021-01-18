@@ -4,3 +4,9 @@
 "BEM Helper" shift + 1  shift + 1  - создает дочерние элементы БЭМ для хтмл
 
 "css navigation" - f12 перемещает в месте где прописан класс в тсилях
+
+
+
+
+
+https://habr.com/ru/post/490754/
