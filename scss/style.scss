@@ -1,0 +1,15 @@
+.parrent {}
+
+.parrent__block1 {}
+
+.parrent__block2 {
+    color: aliceblue;
+}
+
+.newClass {}
+
+@media screen and(max-width: 767px) {
+    .parrent__block2 {
+        color: #fff;
+    }
+}

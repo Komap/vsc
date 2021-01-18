@@ -1,0 +1,6 @@
+"eCSStractor" ctrl + shift + 2 ctrl + shift + 2 - копирует классы хтмл для простого css
+"eCSStractor" ctrl + shift + 3 ctrl + shift + 3 - копирует классы хтмл для SCSS
+
+"BEM Helper" shift + 1  shift + 1  - создает дочерние элементы БЭМ для хтмл
+
+"css navigation" - f12 перемещает в месте где прописан класс в тсилях
