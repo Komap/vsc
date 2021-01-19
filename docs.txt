@@ -41,7 +41,7 @@ git push -u origin main
 
 *При пуше существующей ветки 
 git status - проверить в каком состоянеии находится файл
-git add origin тут название файла 
+git add тут название файла 
 git commit -m "first commit"
 git push
 
