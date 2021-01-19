@@ -23,6 +23,26 @@ https://habr.com/ru/post/490754/
 
 
 
+Настройки по генерирует
+…or create a new repository on the command line
+
+При создании ветки
+echo "# testing" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Komap/testing.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+При пуше
+git remote add origin https://github.com/Komap/testing.git
+git branch -M main
+git push -u origin main
+
+
 
 
 
@@ -31,7 +51,6 @@ Snippets  ======================================================================
 
 
 
-{
 	"Print to console": {
 		"scope": "javascript,typescript",
 		"prefix": "log",
@@ -41,23 +60,99 @@ Snippets  ======================================================================
 		],
 		"description": "Log output to console"
 	},
+	"select element": {
+		"prefix": "jssel",
+		"body": [
+			"const element = document.querySelector('.element');"
+		],
+		"description": "select element"
+	},
+	"function arrow": {
+		"prefix": "jsfunkarr",
+		"body": [
+			"const func = () => {",
+			"    return;",
+			"}"
+		],
+		"description": "function arrow"
+	},
+	"function": {
+		"prefix": "jsfunk",
+		"body": [
+			"func newfun(){",
+			"    return;",
+			"}"
+		],
+		"description": "function arrow"
+	},
+	"for": {
+		"prefix": "jsfor",
+		"body": [
+			"for(let i = 0; i<=arr.length; i++){",
+			"    sum = arr[i];",
+			"}",
+			""
+		],
+		"description": "for"
+	},
+	//CSS snippets
 	"отступ по центру": {
-		// "scope": "javascript,typescript",
-		"prefix": "mav",
+		"prefix": "cssmar",
 		"body": [
 			"margin: 0 auto;",
 		],
 		"description": "Log output to console"
 	},
+	"dflex+justify-content": {
+		"prefix": "cssflex",
+		"body": [
+			"display: flex;",
+			"justify-content: space-between;",
+			"align-items: center;",
+			"align-self: center;",
+		],
+		"description": ""
+	},
+	"grid": {
+		"prefix": "cssgrid",
+		"body": [
+			"display: grid;",
+			"grid-template-columns: repeat(auto-fit,minmax(240px,1fr));",
+			"grid-row-gap: 30px;",
+			"grid-column-gap: 10px;"
+		],
+		"description": "grid"
+	},
+	//HTML snippets
 	"bootstrap section": {
-		"prefix": "sc",
+		"prefix": "hsection",
 		"body": [
 			"<section class=\"class\">",
 			"        <div class=\"container\">",
-			"            <div class=\"row\"></div>",
+			"            <div class=\"row\">$1</div>",
 			"        </div>",
 			"    </section>"
 		],
 		"description": ""
-	}
+	},
+	"button": {
+		"prefix": "newbut",
+		"body": [
+			"<button type=\"button\" class=\"\"></button>"
+		],
+		"description": "button"
+	},
+	"form": {
+		"prefix": "hform",
+		"body": [
+			"<form action=\"\" class=\"form\">",
+			"        <input type=\"text\" class=\"\">",
+			"        <input type=\"text\" class=\"\">",
+			"        <input type=\"text\" class=\"\">",
+			"        <textarea name=\"\" id=\"\" class=\"\"></textarea>",
+			"        <button type=\"button\" class=\"\"></button>",
+			" </form>"
+		],
+		"description": "form"
+	},
 }
