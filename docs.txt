@@ -3,6 +3,8 @@
 сниппеты - настройки на шестеренку в левом углу - User snippets и выбрать f.code-snippets - там же можно добавлять/редактировать
 https://snippet-generator.app  - генерирует правильный код для сниппетов!!!
 
+ЗАПУШИЛОСЬ НА ГИТ
+
 
 "eCSStractor" ctrl + shift + 2 ctrl + shift + 2 - копирует классы хтмл для простого css
 "eCSStractor" ctrl + shift + 3 ctrl + shift + 3 - копирует классы хтмл для SCSS
