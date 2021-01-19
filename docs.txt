@@ -1,12 +1,63 @@
+Горячие клавиши для приложений -  менять настройки на шестеренку в левом углу - Keyboard Shortcuts
+
+сниппеты - настройки на шестеренку в левом углу - User snippets и выбрать f.code-snippets - там же можно добавлять/редактировать
+https://snippet-generator.app  - генерирует правильный код для сниппетов!!!
+
+
 "eCSStractor" ctrl + shift + 2 ctrl + shift + 2 - копирует классы хтмл для простого css
 "eCSStractor" ctrl + shift + 3 ctrl + shift + 3 - копирует классы хтмл для SCSS
 
-"BEM Helper" shift + 1  shift + 1  - создает дочерние элементы БЭМ для хтмл
+"BEM Helper" alt + 1  alt + 2  - создает дочерние элементы БЭМ для хтмл
 
-"css navigation" - f12 перемещает в месте где прописан класс в тсилях
+"css navigation" - f12 перемещает в месте где прописан класс в стилях
+
 
 
 Изменилось
 
 
 https://habr.com/ru/post/490754/
+
+"Better comments" - можно использовать для комментов с подсветкой, перед коментом ставить " ! ? /
+
+
+
+
+
+
+
+Snippets  ========================================================================
+
+
+
+
+{
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2" // положение курсора
+		],
+		"description": "Log output to console"
+	},
+	"отступ по центру": {
+		// "scope": "javascript,typescript",
+		"prefix": "mav",
+		"body": [
+			"margin: 0 auto;",
+		],
+		"description": "Log output to console"
+	},
+	"bootstrap section": {
+		"prefix": "sc",
+		"body": [
+			"<section class=\"class\">",
+			"        <div class=\"container\">",
+			"            <div class=\"row\"></div>",
+			"        </div>",
+			"    </section>"
+		],
+		"description": ""
+	}
+}
