@@ -21,10 +21,9 @@ https://habr.com/ru/post/490754/
 
 
 
-Настройки по генерирует  ===========================================
-…or create a new repository on the command line
+Настройки по GIT  ===========================================
 
-При создании ветки
+*При создании новой ветки
 echo "# testing" >> README.md
 git init
 git add README.md
@@ -34,12 +33,17 @@ git remote add origin https://github.com/Komap/testing.git
 git push -u origin main
 
 …or push an existing repository from the command line
-
-При пуше
+ИЛИ
+*При создании новой ветки
 git remote add origin https://github.com/Komap/testing.git
 git branch -M main
 git push -u origin main
 
+*При пуше существующей ветки 
+git status - проверить в каком состоянеии находится файл
+git add origin тут название файла 
+git commit -m "first commit"
+git push
 
 
 
