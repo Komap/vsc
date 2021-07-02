@@ -1,4 +1,9 @@
 Git - https://github.com/Komap/
+БЭМ - https://www.youtube.com/watch?v=HihYQVuH64U
+Портфолио - https://freelancehunt.com/freelancer/Verizone.html#
+
+
+
 
 Горячие клавиши для приложений -  менять настройки на шестеренку в левом углу - Keyboard Shortcuts
 сниппеты - настройки на шестеренку в левом углу - User snippets и выбрать f.code-snippets - там же можно добавлять/редактировать
